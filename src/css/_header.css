@@ -1,0 +1,15 @@
+.navbar{
+
+ height:20vh ;
+ width: 100vw;
+
+
+}
+.profile_pic{
+    border: gray 1px;
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+    
+}
+
