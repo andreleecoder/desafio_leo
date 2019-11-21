@@ -1,22 +1,44 @@
+body,ul,li,p{
+  margin: 0;
+  padding:0;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+h1{
+  text-align: center;
+  margin-top: 200px;
+}
 
-@import url("./_header.css");
-@import url("./_main.css");
-@import url("./_footer.css");
-@import url("./_modal.css");
-
-@font-face {
-    font-family: cantarell;
-    src: url(../fonts/Cantarell-Regular.woff);
-  }
-  @font-face {
-    font-family: cantarell-bold;
-    src: url(../fonts/Cantarell-Bold.woff);
-  }
+img{
+  max-width: 100%;
+  display: block;
+}
+.header{
+  align-items: center;
+  background: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.menu{
+  display: flex;
   
-  *{
-      box-sizing: border-box;
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-  }
+}
+.menu li{
+  margin: 10px;
+}
+.menu li a{
+  display: block;
+  padding: 10px;
+}
+
+
+  
+  
 
